@@ -11,11 +11,11 @@ Docalog: Multi-document Dialogue System using Transformer-based Span Retrieval -
 This repository contains notebooks which are used during this challenge. They're showing our efforts to making the best predictions on document retriever part so they would be useful as a practice pattern.
 
 
-## IR-PLDA
+## IR_PLDA
 
-This file contains our first efforts for making the document retriever which starts with using PLDA method. If you're looking for our last (best efforts) you can see the `DR.TEIT.ipynb` file
+This file contains our first efforts for making the document retriever which starts with using PLDA method. If you're looking for our last (best efforts) you can see the `DR_TEIT.ipynb` file
 
-## DR.TEIT
+## DR_TEIT
 
 This file contains some tested methods for document retriever which you can see them in below table. We called our best model "Document Retrival with Title Embedding and IDF on Texts (DR.TEIT)". In this method we used two scoring measure and aggregate them by a convex combination  (λ * Similiarity_{Title Embedding} + (1 - λ) * Similiarity_{TextIDF}).
 
